@@ -1,0 +1,18 @@
+.wrap{
+    width: 100%px;
+    height: 400px;
+    background-color: black;
+    position: relative;
+}
+.box{
+    width: 70px;
+    height: 60px;
+    background-color: red;
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translateX(-50%);
+    transform: translateY(-50%);
+p{
+    color: white;
+}
